@@ -10,7 +10,9 @@ function handleSubmit(event) {
     "href",
     `mailto:maxischnipp2@gmail.com?subject=${formulario.get(
       "asunto"
-    )} . Mi Teléfono: ${formulario.get("tel")}&body=${formulario.get("message")}`
+    )} . Mi Teléfono: ${formulario.get("tel")}&body=${formulario.get(
+      "message"
+    )}`
   );
 
   buttonMailTo.click();
